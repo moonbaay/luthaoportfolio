@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">lt</div>
+      <nav class=" nav-flex">
+        <ul class="nav-ul">
+          <li class="link hero active"><a href="#">Home</a></li>
+          <li class="link project"><a href="#project">Project</a></li>
+          <li class="link about"><a href="#about">about me</a></li>
+          <li class="link contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger-bar"><i class="fa-solid fa-bars"></i></div>
+     <div class="x-mark"> <i class="fa-solid fa-xmark"></i></div>
+    </header>
+    <section class="social-media">
+        <ul class="social-media-block">
+            <li>
+                <a href="https://www.linkedin.com/in/lu-thao-b66069173/" class="linkedin" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>
+                        linkedin
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:lunathao92@gmail.com" class="gmail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        gmail
+                    </span>
+                </a>
+            </li>
+            <li>
+                 <a href="https://github.com/moonbaay" class="github" target="_blank">
+                     <i class="fa-brands fa-github"></i>
+                        <span>
+                            github
+                        </span>
+                </a>
+            </li>
+        </ul>
+      
+    </section>
+    
+    <section class="section" id="hero">
+      <div class="name-content">
+        <div class="subtitle-2">Hello,</div>
+        <div class="name">I'm Lu Thao</div>
+        <div class="subtitle">Web Developer</div>
+          <div class="btn-gradient">
+              <a class="download-resume" href="https://docs.google.com/document/d/1QBrMidMYeowv5yFmq17jXXZleO8zPURJ-02n2e2qGZU/edit?usp=sharing" target="_blank">Download Resume</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-angles-down"></i>
+        </div>
+  
+      </div>
+  </section>
+
+    <section id="project" class="section">
+        <div class="card-container">
+            <div class="card">
+              <img src="./images/bugs.jpg" alt="bug" class="card-image">
+              <div class="card-content-overlay">
+                <p>bug tracker</p>
+                <a href="issuemanagement.netlify.app" target="_blank">app</a>
+                <a href="https://github.com/moonbaay/issuemanagement.git" target="_blank"><i class="fa-brands fa-git"></i></a>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="./images/Blogging-For-Marketing-ENX2.jpg" alt="blog" class="card-image">
+              <div class="card-content-overlay">
+                <p>blog website (MoonPost)</p>
+                <a href="https://moonpost.netlify.app/" target="_blank">app</a>
+                <a href="https://github.com/moonbaay/moonpost.git" target="_blank"><i class="fa-brands fa-git"></i></a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+      <video muted autoplay loop class="video-container">
+        <source src="./images/Pexels Videos 2792967.mp4" type="video/mp4">
+      </video>
+      <h1 id="about-title" class="about-me-title">About Me</h1>
+      <div class="about-content">
+      
+        <div class="bio-content">
+           <div class="about-img">
+             <img src="./images/portrait2.jpg" alt="portrait">
+            </div>
+            <p class="bio-txt">I am web and programming developer who enjoys learning new things and is eager to be transformed.  I'm looking for a challenging career at a reputable company where I can develop new skills, broaden my knowledge, and apply what I've learned.</p>
+        </div>
+        <div class="skill-content">
+        <h3 class="skill-title">Skill</h3>
+        <div>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+        <p>C#</p>
+        <p>C++</p>
+        <p>React</p>
+        <p>SQL</p>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+    
+    <section class="section" id="contact">
+ 
+        <div id="contact-content-left" class="contact-content-left">
+          <h1>Let's</h1>
+          <h1>get</h1> 
+          <h1>Connect!</h1>
+        </div>
+        <div  class="contact-content-right">
+          <form action="https://formsubmit.co/lunathao92@gmail.com" method="POST" class="contact-form">
+            <h2>Feel free to contact me</h2>
+            <input type="text" name="name" required placeholder="Full name">
+            <input type="email" name="email" required placeholder="email">
+            <textarea name="message" placeholder="Message" id="message" cols="30" rows="6"></textarea>
+            <button type="submit" class="submit-btn border-gradient">Send</button>
+          </form>
+        </div>
+
+    </section>
+    <footer>
+      <div class="border-gradient">
+        copyright &copy;2022 Lu Thao All right reserve.
+      </div>  
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

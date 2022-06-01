@@ -1,0 +1,287 @@
+@media  screen and (max-height:600px) {
+    .about-me-title{
+        font-size: 3rem;
+    }
+    .about-content h3{
+        font-size: 2.5rem;
+    }
+    .skill-content p{
+        font-size: 1.5rem;
+    }
+    .bio-content,
+    .skill-content{
+        transition: all .5s ease;
+        max-width: 350px;
+        min-height:370px;
+        
+    }
+    .about-img{
+        max-width: 150px;
+
+    }
+    .bio-txt{
+        text-align:start;
+        overflow-y: scroll;
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contact-content-left-block{
+        min-width: 350px;
+    }
+    .card-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:900px) {
+        .about-content{
+            margin-top: 3rem;
+        }
+        .about-me-title {
+      
+            padding-top: 3rem;
+            font-size: 3rem;
+        }
+        
+        .about-content h3 {
+            font-size: 1.5rem;
+            padding: 10px 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .about-img{
+            width: 150px;
+        }
+        .skill-content p {
+            font-size: 1.5rem;
+        }
+        
+        .bio-content,
+        .skill-content {
+            transition: all .5s ease;
+            max-width: 300px;
+            max-height: 470px;
+        
+        }
+        .about-img {
+            max-width: 150px;
+        
+        }
+        
+        .bio-txt {
+            text-align: start;
+ 
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        .contact-content-left-block {
+                min-width: 200px;
+        }
+        .card{
+            max-width: 250px;
+        }
+}
+
+@media screen and (max-width:600px) {
+    #contact {
+        display: grid;
+    }
+    .about-img img {
+        width: 100px;
+    }
+
+    .bio-content,
+    .skill-content {
+        max-width: 200px;
+        height: 310px;
+    }
+
+    .bio-txt {
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .skill-title {
+
+        min-width: 50px;
+        padding: 0;
+        text-align: left;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .nav-flex{
+        display:none;
+    }
+
+    .nav-grid{
+        transition: all .3s ease;
+        display: grid;
+        background-color: rgb(58, 58, 58);
+        padding: 5px 0;
+    }
+    .burger-bar {
+        position: absolute;
+        display: block;
+        color: var(--primary-color);
+        top: 10%;
+        left: 90%;
+        transition: all .3s ease;
+
+    }
+    .x-mark-show{
+    position: absolute;
+    display: block;
+    color: var(--primary-color);
+    top: 12%;
+    left: 90%;
+    transition: all .3s ease;
+    }
+    header {
+        display:block;
+        justify-content: space-between;
+    }
+
+    .active{
+        transform: none;
+        border-bottom: none;
+        
+    }
+    .active a{
+        color: rgb(162, 218, 255);
+    }
+    .social-media{
+        width: 30px;
+        
+    }
+    .social-media li{
+
+        height: 30px;
+    }
+    .social-media li a{
+        font-size: 1rem;
+        padding: 0;
+        line-height: 0;
+        
+    }
+    .social-media li a i{
+        top: 25%;
+        left: 25%;
+    }
+    .social-media li a span{
+        padding-top:15px;
+        padding-right: 5rem;
+    }
+
+    .nav-ul{
+        display: grid;
+    }
+    .btn-gradient{
+        width: 230px;
+    }
+   
+    #hero{
+        line-height: 2.5rem;
+    }
+    #hero i{
+        font-size: 1.2rem;
+    }
+    .name,.subtitle-2{
+        letter-spacing: .3rem;
+    }
+    .subtitle-2{
+        font-size: 1.3rem;
+    }
+    .name{
+        font-size: 2rem;
+    }
+    .subtitle span{
+        font-size: 2rem;
+        letter-spacing: .5rem;
+        padding-bottom: 10px;
+    }
+    .name-content{
+        display: grid;
+        place-items: center;
+       
+    }
+    .about-content{
+        display: grid;
+        gap: 10px;
+    }
+    .about-me-title{
+        font-size: 1.6rem;
+    }
+    .about-img img{
+        width: 50px;
+    }
+    .bio-txt{
+        overflow-y: scroll;
+        height: 150px;
+    }
+    .skill-content{
+        display: flex;
+        place-items: center;
+    }
+    .skill-content div p{
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    .skill-title{
+        font-size: 1rem;
+    }
+
+    #contact{
+
+        display: grid;
+        gap: 0;
+        place-items: center;
+        grid-template-rows: repeat(1,1fr);
+        row-gap:20px;
+    }
+  
+    .contact-content-left-block{
+        max-width: 150px;
+        display: grid;
+        font-size: 1rem;
+        min-height: 100px;
+    }
+    .contact-content-left h1{
+       line-height: -2rem;
+        text-align: left;
+  
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+    .contact-form h2{
+        font-size: 1rem;
+    }
+    .contact-form{
+        min-width: 150px;
+        min-height: 100px;
+
+    }
+    .submit-btn{
+        padding: 5px;
+    }
+    .card-container{
+        gap: 10px 0;
+        padding: 0;
+    }
+    .card{
+        width: 200px;
+        
+    }
+    footer{
+        height: auto;
+    }
+    footer div{
+        height: 50px;
+        margin-top: 5rem;
+    }
+}
